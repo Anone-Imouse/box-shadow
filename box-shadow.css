@@ -1,0 +1,30 @@
+body {
+  margin:0;
+  padding:0;
+  /*Sets space between content and border to zero for everything thats is created as well as its space between it and other elements.*/
+  display:flex;
+  height:100vh;
+  /*Sets height to 100 vertical height and dislay to flex.*/
+  justify-content:center;
+  align-items:center;
+  /*Aligns text in the center both horizontally and vertically*/
+  font-family:"Varela Round",sans-serif;
+  /*Sets the font to Varela Round, which is imported but if it is not available, it is set to sans-serif.*/
+  background:#aaa;
+  /*Sets the the background to the color #aaa which is an abreviation for #aaaaaa which is a hexadecimal color.*/
+}.box {
+  background:#fff;
+  /*Sets the background to #fff which is equivalent to white*/
+  padding:20px 30px;
+  /*Sets the padding vertically to 20 pixels and horizontally to 30 pixels.*/
+  font-size:30px;
+  /*Sets the size of the text to 30 pixels.*/
+  font-weight:900;
+  /*Sets the level of blodness to 900.*/
+  box-shadow: 30px 14px 25px 0px rgba(0,0,0,.6);
+  /*Sets the vertical offset to 30 pixels, the horizontal one to 14 pixels, the blur to 25 pixels, the spread(how far the shadow will be solid before the blur kicks in.) to 0, cancelling it out, and finally sets the color to rgba(0,0,0,.6) which means it will be black with the three rgb 0's but 0.6 will be the opacity. It goes from 0 to 6. That makes it 60%*/
+  border-radius:5px;
+  /*It will have 5px of radius around the border, making it have round edges*/
+  cursor:pointer;
+  /*Sets the cursor to pointer so that instead of giving the default cursor when you hover over it, it gives the tiny hand. Try it out for yourself!*/  
+}
